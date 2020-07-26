@@ -1,6 +1,6 @@
 print("""
        ***********************************************************
-       ******  Welcome to Smart Cli Calcular Version 1.0  ********  
+       ******  Welcome to Py Cli Calculator Version 1.0  ********  
        ===========================================================
 """)
 def print_sol(sol): # Print result function
@@ -28,7 +28,7 @@ def div_num(num1 , num2): # Defined Division
 	print_sol(sol)
 
 while True:
-	print("Choose your operation with two numbers")
+	print("Choose Your Operation with Two Numbers")
 	print("""
 		Press A For Addition
 		Press S For Substration
@@ -60,4 +60,3 @@ while True:
 		""")
 
 	
-
