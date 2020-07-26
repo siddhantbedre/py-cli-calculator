@@ -14,22 +14,18 @@ def print_sol(sol): # Print result function
 def add_num(num1 , num2): # Defined Addition
 	sol = num1 + num2
 	print_sol(sol)
-	return sol
 
 def sub_num(num1 , num2): # Defined Subtraction
 	sol = num1 - num2
 	print_sol(sol)
-	return sol
 
 def mul_num(num1 , num2): # Defined Multiplication
 	sol = num1 * num2
 	print_sol(sol)
-	return sol
 
 def div_num(num1 , num2): # Defined Division
 	sol = num1 / num2
 	print_sol(sol)
-	return sol 
 
 while True:
 	print("Choose your operation with two numbers")
