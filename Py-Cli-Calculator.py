@@ -35,7 +35,7 @@ while True:
 		Press M For Multiplication
 		Press D For Division
 
-		Press Q For EXIT
+		Press Ctrl + C For EXIT
 		""")
 	option = str.lower(input("Select from A S M D >> ")) # Option input field
 	if option in ("a" , "s" , "m" , "d" ):
@@ -49,8 +49,6 @@ while True:
 			mul_num(num1,num2)
 		if option == "d": # Divide function
 			div_num(num1,num2)
-	if option == "q": # Exit program
-		exit()
 
 	else : 
 		print("""
