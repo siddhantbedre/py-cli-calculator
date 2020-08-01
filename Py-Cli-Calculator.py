@@ -49,7 +49,7 @@ while True:
 			mul_num(num1,num2)
 		if option == "d": # Divide function
 			div_num(num1,num2)
-	if option == "q":
+	elif option == "q":
 		exit()
 
 	else : 
