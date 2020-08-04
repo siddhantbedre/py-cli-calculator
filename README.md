@@ -1,4 +1,4 @@
-# py-cli-calculator
+# Py CLI Calculator
 
 
 This is Python CLI Calculator that work in terminal or command prompt.
